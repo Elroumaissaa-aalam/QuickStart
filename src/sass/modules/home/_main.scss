@@ -1,0 +1,43 @@
+// icons + button fixed 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.svg{
+    background-color: #D1E5EC;
+    color: #388da8;
+    
+}
+.svg:hover{
+    background-color: #388DA8;
+    color: white;
+
+}
+.up{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+   background-color: #388DA8;
+    border: none;
+    outline: none;
+   color: #D1E5EC;
+    padding: 15px;
+    border-radius: 100%; 
+}
+.up:hover{
+    background-color: #D1E5EC;
+    color: #388DA8;
+}
+@media (max-width:480px) {
+    .flex{
+        flex-direction: column;
+        gap: 5vh;
+        p{
+
+            width:45vh !important;
+        }
+    }
+}
+
