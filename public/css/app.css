@@ -12068,5 +12068,60 @@ a:hover {
     padding-top: 5vh;
   }
 }
+.frequently {
+  text-align: center;
+}
+.frequently h1, .frequently .h1 {
+  position: relative;
+  padding-bottom: 4vh;
+}
+.frequently h1::before, .frequently .h1::before {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  height: 4px;
+  width: 4vw;
+  background-color: #549db4;
+  border-radius: 20px;
+}
+.frequently .accordion {
+  width: 80%;
+  padding-left: 10vw;
+  padding-top: 5vh;
+}
+
+.contact {
+  position: relative;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+.contact .text-center h1::before, .contact .text-center .h1::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  height: 4px;
+  width: 4vw;
+  background-color: #549db4;
+  border-radius: 20px;
+}
+.contact .flexing {
+  padding-top: 10vh;
+}
+.contact .flexing .contact_head {
+  justify-content: space-around;
+  gap: 20px;
+  box-shadow: 20px 20px 50px grey;
+  width: 35vw;
+}
+.contact .flexing .contact_head svg {
+  color: #388da8;
+  border: dotted #388da8;
+  border-radius: 50%;
+  padding: 5px;
+}
 
 /*# sourceMappingURL=app.css.map */
