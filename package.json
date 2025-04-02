@@ -19,5 +19,6 @@
   "homepage": "https://github.com/Elroumaissaa-aalam/QuickStart#readme",
   "dependencies": {
     "bootstrap": "^5.3.3"
-  }
+  },
+  "devDependencies": {}
 }
