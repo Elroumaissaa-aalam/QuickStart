@@ -12036,41 +12036,6 @@ a:hover {
   color: rgba(41, 41, 41, 0.8705882353);
 }
 
-@media (max-width: 480px) {
-  .flex {
-    flex-direction: column;
-    gap: 5vh;
-  }
-  .flex p {
-    width: 45vh !important;
-  }
-  .about {
-    width: 100vw;
-    flex-direction: column;
-    align-items: center;
-    padding: 9PX !important;
-  }
-  .about .abt-child1 {
-    width: 100vw;
-  }
-  .about .abt-child1 h1, .about .abt-child1 .h1 {
-    width: 100%;
-  }
-  .about .abt-child1 span {
-    display: flex;
-  }
-  .about .abt-child1 button {
-    width: 50% !important;
-  }
-  .abt-child2 {
-    width: 100vw;
-    flex-direction: column;
-  }
-  .abt-child2 img {
-    width: 95vw !important;
-    padding-top: 5vh;
-  }
-}
 .centar {
   display: flex;
   flex-direction: column;
@@ -12084,13 +12049,29 @@ a:hover {
   height: 80vh;
 }
 
-.gap {
+.cader {
   background-color: #f7fbfc;
+}
+
+.khate {
+  padding: 20px;
+  border-bottom: 3px solid #388DA8;
+}
+
+.gap:hover {
+  background-color: #f7fbfc;
+}
+
+.gap {
   gap: 5vh;
   justify-content: center;
 }
 .gap div > p {
   width: 50%;
+}
+
+.paddinge {
+  padding-inline: 15vh;
 }
 
 .hoovering {
@@ -12133,7 +12114,7 @@ a:hover {
 }
 
 .leftside > img {
-  width: 35vw;
+  width: 40vw;
   border-radius: 10px;
 }
 
@@ -12146,21 +12127,29 @@ a:hover {
   padding-bottom: 10vh;
 }
 
-.rightside > .frst {
-  background-color: rgba(173, 216, 230, 0.448);
-  padding-left: 50px;
-  border-radius: 10px;
-  width: 400px;
-  padding: 20px;
+.frst {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
-button {
+.frst > button {
+  width: 30%;
   background-color: #549DB4;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.rightside {
+  background-color: #f5f9fa;
+  display: flex;
+  justify-content: end !important;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 @media (max-width: 480px) {
@@ -12171,6 +12160,94 @@ button {
   .leftside > img {
     width: 90vw;
   }
+}
+.moraba3e {
+  width: 25%;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+}
+
+.my {
+  border: 0.5px solid rgba(219, 219, 219, 0.7450980392);
+  padding: 5vh;
+  border-radius: 5px;
+}
+
+.my:hover {
+  box-shadow: 0.5px 0.5px 2px 2px rgba(128, 128, 128, 0.1647058824);
+  transform: scale(1.05);
+}
+
+.lone p {
+  color: grey;
+}
+.lone h5, .lone .h5 {
+  color: rgba(0, 0, 0, 0.6470588235);
+}
+.lone a {
+  text-decoration: none;
+  color: #388da8;
+}
+
+.grid {
+  grid-template-columns: repeat(2, 1fr);
+  padding-inline: 15vh;
+  gap: 5vh;
+}
+
+.bleu {
+  border: 1px solid #00bbff;
+  background-color: rgba(215, 244, 254, 0.6431372549);
+}
+.bleu svg {
+  color: #00bbff;
+}
+
+.orang {
+  border: 1px solid #ff6f00;
+  background-color: rgba(255, 214, 138, 0.8039215686);
+}
+.orang svg {
+  color: orange;
+}
+
+.grene {
+  border: 1px solid #2fff3d;
+  background-color: rgba(181, 255, 186, 0.7960784314);
+}
+.grene svg {
+  color: green;
+}
+
+.pink {
+  border: 1px solid #df1529;
+  background-color: rgba(243, 152, 161, 0.4823529412);
+}
+.pink svg {
+  color: #df1529;
+}
+
+.move {
+  border: 1px solid purple;
+  background-color: rgba(241, 174, 241, 0.6823529412);
+}
+.move svg {
+  color: purple;
+}
+
+.hmare {
+  border: 1px solid #9a0235;
+  background-color: rgba(251, 178, 202, 0.6039215686);
+}
+.hmare svg {
+  color: #9a0235;
+}
+
+.ba {
+  background-color: #f8fbfc;
 }
 
 /*# sourceMappingURL=app.css.map */
