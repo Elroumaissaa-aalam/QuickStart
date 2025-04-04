@@ -11850,9 +11850,12 @@ nav {
   box-shadow: 0 0 4px rgba(128, 128, 128, 0.262);
   display: block;
   top: 0;
-  position: fixed;
   width: 100%;
   z-index: 200;
+}
+
+#checkbox, label {
+  display: none;
 }
 
 body {
@@ -11963,6 +11966,22 @@ a:hover {
   z-index: 50px;
 }
 
+@media (max-width: 480px) {
+  .tag, .tag > div {
+    display: flex;
+    background-color: #000;
+    height: 100%;
+    flex-direction: column;
+    top: 0;
+    left: -200%;
+    width: 50%;
+    height: 100%;
+    padding: 5vh;
+  }
+  .tag a, .tag > div a {
+    background-color: white;
+  }
+}
 * {
   padding: 0;
   margin: 0 !important;
@@ -12248,6 +12267,117 @@ a:hover {
 
 .ba {
   background-color: #f8fbfc;
+}
+
+.my_class {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-inline: 15vh;
+  gap: 15px;
+}
+
+.maig {
+  width: 50%;
+  padding-right: 10%;
+}
+
+.lawne {
+  color: #388da8;
+}
+
+.pricing-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.pricing-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-header {
+  color: #388da8;
+  margin-bottom: 10px;
+}
+
+.pricing-button {
+  background-color: #388da8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popular {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #388da8;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.bag {
+  padding: 5vh;
+  padding-inline: 5vh;
+  background-color: #f7fbfc;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 105vh;
+  gap: 15px;
+  border-radius: 20px;
+}
+.bag h5, .bag .h5 {
+  color: rgba(0, 0, 0, 0.668);
+  width: 100%;
+  text-align: start;
+}
+.bag p {
+  text-align: start;
+  color: black;
+}
+.bag a {
+  border: 1px solid;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+.bag h3, .bag .h3 {
+  color: #388DA8;
+  font-size: 7vh;
+}
+.bag h3 span, .bag .h3 span {
+  color: rgba(128, 128, 128, 0.368627451);
+  font-size: medium;
+}
+
+.marke {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.marke p {
+  color: grey;
+}
+.marke svg {
+  color: green;
+}
+.marke .kh7ale {
+  color: rgba(128, 128, 128, 0.5647058824);
+  text-decoration: line-through;
+}
+.marke .kh7ale svg {
+  color: rgba(128, 128, 128, 0.5647058824);
 }
 
 /*# sourceMappingURL=app.css.map */
